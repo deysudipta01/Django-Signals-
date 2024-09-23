@@ -62,7 +62,7 @@ def my_signal_receiver(sender, instance, created, **kwargs):
     current_thread = threading.current_thread()
     print(f'Signal received in thread: {current_thread.name}')
 
-# Example usage in a Django shell or view
+
 def create_instance():
     current_thread = threading.current_thread()
     print(f'Creating instance in thread: {current_thread.name}')
